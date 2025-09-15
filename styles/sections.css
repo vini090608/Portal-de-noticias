@@ -99,6 +99,14 @@ section header{
     }
 }
 
+#more{
+    img{
+        height: 72px;
+        width: 72px;
+        object-fit: cover;
+    }
+}
+
 aside{
     grid-area: aside;
 }
