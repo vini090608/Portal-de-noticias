@@ -17,12 +17,12 @@
     --text-color-secondary: #CBD5E1;
 
     --font-family: "Archivo", sans-serif;
-    --h1: 800px 24px/135% var(--font-family);
-    --h2: 800px 16px/140% var(--font-family);
-    --h3: 800px 14px/140% var(--font-family);
-    --text-span: 600px 14px/145% var(--font-family);
-    --text: 400px 16px/140% var(--font-family);
-    --text-sm: 400px 14px/160% var(--font-family);
+    --h1: 800 24px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
 
 }
 
@@ -45,16 +45,16 @@ h1, h2, h3{
     font: inherit;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
     max-width: 1280px;
     padding-inline: 32px;
     margin-inline: auto;
 }
-/* Utility-first */
-.grid{
-    display: grid;
-}
 
-.grid-flow-col{
-    grid-auto-flow: column;
+main{
+    margin-top: 40px;
 }
