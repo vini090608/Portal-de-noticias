@@ -1,0 +1,139 @@
+@media (width < 50em){
+    body{
+        overflow: visible;
+    }
+
+    .container{
+        .container{
+            padding-inline: .5rem;
+        }
+    }
+
+    #primary{
+        display: flex;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+
+    #secondary{
+        display: inline-flex;
+        gap: 1rem;
+        width: 100%;
+        margin: 1rem;
+
+        overflow: scroll;
+
+        header{
+            display: inline-block;
+            justify-content: space-between;
+            
+            nav{
+                a{
+                    width: 100%;
+                }
+            }
+        }   
+
+    }
+
+    *{
+        margin-block: 0;
+        row-gap: 0;
+        column-gap: 0;
+
+        
+    }
+
+    .grid{
+        display: block;
+        margin: 1rem;
+    }
+
+    #featured:nth-child(1){
+        width: 328px;
+        height: 416px;
+    }
+
+    #featured{
+        display: inline-block;
+
+
+        .card{
+            /* width: 328px; */
+            margin-bottom: 1rem;
+        }
+    }
+
+    #weekly{
+        display: inline-block;
+
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 0px;
+        }
+
+        figure{
+            margin-bottom: 1rem;
+        }
+
+        img{
+            justify-self: center;
+        }
+    }
+
+    #ai{
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 0px;
+        }
+
+        article{
+            display: flex;
+            flex-direction: row-reverse;  
+            margin-bottom: 2rem;
+
+            div{
+                width: 234px;
+            }
+
+            h3{
+                height: 44px;
+                overflow: hidden;
+            }
+
+            p{
+                height: 88px;
+                overflow: hidden;
+            }
+        }
+    }
+    
+    aside{
+        #more{
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            article{
+                display: flex;
+
+                div{
+                    img{
+                        width: 72px;
+                        height: 72px;
+                        object-fit: cover;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
